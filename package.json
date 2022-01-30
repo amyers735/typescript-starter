@@ -1,0 +1,23 @@
+{
+  "name": "odds-conversions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon",
+    "build": "rimraf dist && tsc",
+    "start": "NODE_ENV=production node ."
+  },
+  "keywords": [],
+  "author": "Andy Myers",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.13",
+    "rimraf": "^3.0.2"
+  }
+}
