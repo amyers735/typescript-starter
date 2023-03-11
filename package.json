@@ -1,5 +1,5 @@
 {
-  "name": "odds-conversions",
+  "name": "typescript-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node ."
   },
   "keywords": [],
-  "author": "Andy Myers",
+  "author": "Andrew Myers",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15",
